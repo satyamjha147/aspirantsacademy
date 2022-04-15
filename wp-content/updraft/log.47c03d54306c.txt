@@ -1,0 +1,626 @@
+0000.114 (0) Opened log file at time: Sat, 09 Apr 2022 08:44:04 +0000 on http://localhost/wordpress
+0000.289 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 51.2M | 52M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.471 (0) Free space on disk containing Updraft's temporary directory: 456665.3 MB
+0000.727 (0) Tasks: Backup files: 1 (schedule: twicedaily) Backup DB:  (schedule: twicedaily)
+0000.809 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.450 (0) Semaphore (fd, wp_options) being initialised
+0002.305 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0003.680 (0) Set semaphore last lock (fd) time to 2022-04-09 08:44:08
+0003.955 (0) Semaphore lock (fd) complete
+0004.701 (0) Backup run: resumption=0, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (5s ago), job type=backup
+0005.108 (0) Scheduling a resumption (1) after 300 seconds (1649494149) in case this run gets aborted
+0006.124 (0) Checking if we have a zip executable available
+0006.588 (0) Creation of backups of directories: beginning
+0007.127 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0024.562 (0) Total entities for the zip file: 846 directories, 3968 files (0 skipped as non-modified), 80 MB
+0024.676 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0024.968 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 100 files added (on-disk size: 148.9 KB)
+0025.063 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 200 files added (on-disk size: 148.9 KB)
+0025.145 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 300 files added (on-disk size: 148.9 KB)
+0025.213 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 400 files added (on-disk size: 148.9 KB)
+0025.372 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 500 files added (on-disk size: 148.9 KB)
+0025.529 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 600 files added (on-disk size: 148.9 KB)
+0025.595 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 700 files added (on-disk size: 148.9 KB)
+0025.656 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 3968 files batched, 740 (741) added so far); re-opening (prior size: 148.9 KB)
+0043.115 (0) A useful amount of data was added after this amount of zip processing: 18.6 s (normalised: 18.5 s, rate: 1382.7 KB/s)
+0043.744 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 800 files added (on-disk size: 5451.3 KB)
+0044.032 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 900 files added (on-disk size: 5451.3 KB)
+0044.224 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1000 files added (on-disk size: 5451.3 KB)
+0044.566 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1100 files added (on-disk size: 5451.3 KB)
+0045.008 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1200 files added (on-disk size: 5451.3 KB)
+0045.147 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1300 files added (on-disk size: 5451.3 KB)
+0045.316 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1400 files added (on-disk size: 5451.3 KB)
+0045.863 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1500 files added (on-disk size: 5451.3 KB)
+0046.036 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1600 files added (on-disk size: 5451.3 KB)
+0046.222 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1700 files added (on-disk size: 5451.3 KB)
+0046.402 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 3968 files batched, 969 (1710) added so far); re-opening (prior size: 5451.3 KB)
+0064.018 (0) A useful amount of data was added after this amount of zip processing: 20.5 s (normalised: 20.5 s, rate: 1250.8 KB/s)
+0064.152 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1800 files added (on-disk size: 14289.4 KB)
+0064.208 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 1900 files added (on-disk size: 14289.4 KB)
+0064.260 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2000 files added (on-disk size: 14289.4 KB)
+0064.319 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2100 files added (on-disk size: 14289.4 KB)
+0064.377 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2200 files added (on-disk size: 14289.4 KB)
+0064.436 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2300 files added (on-disk size: 14289.4 KB)
+0064.495 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2400 files added (on-disk size: 14289.4 KB)
+0064.553 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2500 files added (on-disk size: 14289.4 KB)
+0064.617 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2600 files added (on-disk size: 14289.4 KB)
+0064.680 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2700 files added (on-disk size: 14289.4 KB)
+0064.712 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.2 MB, 3968 files batched, 1001 (2711) added so far); re-opening (prior size: 14289.4 KB)
+0082.261 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2800 files added (on-disk size: 18198.7 KB)
+0082.406 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 2900 files added (on-disk size: 18198.7 KB)
+0082.501 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3000 files added (on-disk size: 18198.7 KB)
+0082.614 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3100 files added (on-disk size: 18198.7 KB)
+0082.774 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3200 files added (on-disk size: 18198.7 KB)
+0082.859 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3300 files added (on-disk size: 18198.7 KB)
+0083.000 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3400 files added (on-disk size: 18198.7 KB)
+0083.065 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3500 files added (on-disk size: 18198.7 KB)
+0083.197 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3600 files added (on-disk size: 18198.7 KB)
+0083.271 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3700 files added (on-disk size: 18198.7 KB)
+0083.564 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.4 MB, 3968 files batched, 1001 (3712) added so far); re-opening (prior size: 18198.7 KB)
+0100.991 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3800 files added (on-disk size: 24327 KB)
+0101.222 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.tmp: 3900 files added (on-disk size: 24327 KB)
+0111.399 (0) Creating zip file manifest (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip.list-temp.tmp)
+0111.475 (0) Successfully created zip file manifest (size: 330054)
+0112.135 (0) Created plugins zip (0) - 25056.9 KB in 104.9 s (238.9 KB/s) (sha1: cf8ee20dae340c563eeb8223aa31b5c9a0788876, sha256: e374223f176c4d0dbeccc8b6aceb1493851b3b4511f0de165d7e89857d361226)
+0112.250 (0) Beginning creation of dump of themes (split every: 400 MB)
+0113.861 (0) Total entities for the zip file: 363 directories, 1015 files (0 skipped as non-modified), 29.7 MB
+0113.955 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0114.068 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0114.167 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0114.365 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0114.542 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.4 MB, 402 (402) files added so far); re-opening (prior size: 0 KB)
+0121.477 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 500 files added (on-disk size: 1989.7 KB)
+0121.569 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 600 files added (on-disk size: 1989.7 KB)
+0121.644 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 700 files added (on-disk size: 1989.7 KB)
+0121.710 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 800 files added (on-disk size: 1989.7 KB)
+0121.835 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 900 files added (on-disk size: 1989.7 KB)
+0121.910 (0) Zip: backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.tmp: 1000 files added (on-disk size: 1989.7 KB)
+0132.235 (0) Creating zip file manifest (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip.list-temp.tmp)
+0132.299 (0) Successfully created zip file manifest (size: 82330)
+0132.536 (0) Created themes zip (0) - 12822.6 KB in 20.3 s (633.2 KB/s) (sha1: b3a313af52a7862a1d01d5c5da24b2edc47c292a, sha256: 3d1e45ee4e1ec080ccc9e5af4e524f2722e20fe808d739c88ce01504029f1008)
+0132.625 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0132.658 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0132.684 (0) finding files: 2020: adding to list (1)
+0132.724 (0) finding files: 2022: adding to list (2)
+0132.750 (0) finding files: astra-sites: adding to list (3)
+0132.775 (0) finding files: elementor: adding to list (4)
+0132.800 (0) finding files: wpforms: adding to list (5)
+0132.875 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0133.329 (0) Total entities for the zip file: 9 directories, 43 files (0 skipped as non-modified), 6.6 MB
+0134.993 (0) Creating zip file manifest (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip.list-temp.tmp)
+0135.133 (0) Successfully created zip file manifest (size: 2419)
+0135.518 (0) Created uploads zip (0) - 3738.1 KB in 2.6 s (1442.3 KB/s) (sha1: eaec259b1af49be8ab56c217da3bbbf958c7f3f7, sha256: eed186230ee6617a2af4385660277e679c3288448c419155983af14d72dd3f58)
+0135.724 (0) Beginning backup of other directories found in the content directory (index: 0)
+0135.749 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0135.775 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0135.802 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0135.858 (0) finding files: index.php: adding to list (1)
+0135.882 (0) finding files: plugins: skipping: this is the plugins directory
+0135.908 (0) finding files: themes: skipping: this is the themes directory
+0135.933 (0) finding files: updraft: skipping: this is the updraft directory
+0135.958 (0) finding files: upgrade: skipping: excluded by options
+0135.983 (0) finding files: uploads: skipping: this is the uploads directory
+0136.113 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0136.234 (0) Creating zip file manifest (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip.list-temp.tmp)
+0136.268 (0) Successfully created zip file manifest (size: 43)
+0136.350 (0) Created others zip (0) - 0.1 KB in 0.3 s (0.5 KB/s) (sha1: f06156b641b2f3c6ad725e6d38f8df3a6e40f480, sha256: 7157e654c9a1743fbcbbc2db8cbcffb5f1ae7a43ea46ab4f36d07aabfe4bb29e)
+0136.458 (0) Saving backup status to database (elements: 8)
+0136.516 (0) Beginning creation of database dump (WordPress DB)
+0136.542 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0138.856 (0) Table wp_options: Total expected rows (via COUNT): 334
+0138.908 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.665 (0) Table wp_options: Rows added in this batch (next record: 971): 330 (uncompressed bytes in this segment=5025329) in 2.67 seconds
+0139.924 (0) Table wp_options: finishing file(s) (2, 347.3 KB)
+0140.038 (0) Table wp_users: Total expected rows (via COUNT): 1
+0140.109 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0140.160 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1394) in 0.17 seconds
+0140.283 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0140.483 (0) Table wp_usermeta: Total expected rows (via COUNT): 22
+0140.550 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0140.576 (0) Table wp_usermeta: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=2408) in 0.21 seconds
+0140.725 (0) Table wp_usermeta: finishing file(s) (2, 1.2 KB)
+0140.976 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 7
+0141.017 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0141.075 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 18): 7 (uncompressed bytes in this segment=4487) in 0.25 seconds
+0141.350 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1 KB)
+0141.506 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0141.614 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.15 seconds
+0141.750 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0141.846 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0141.900 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0141.959 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.13 seconds
+0142.050 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0142.177 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 15
+0142.210 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0142.271 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=2064) in 0.10 seconds
+0142.483 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0142.734 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0142.784 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.10 seconds
+0142.901 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0142.998 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0143.034 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0143.109 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2140) in 0.11 seconds
+0143.193 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0143.382 (0) Table wp_links: Total expected rows (via COUNT): 0
+0143.458 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.14 seconds
+0143.558 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0143.986 (0) Table wp_postmeta: Total expected rows (via COUNT): 887
+0144.045 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0144.173 (0) Table wp_postmeta: Rows added in this batch (next record: 1667): 887 (uncompressed bytes in this segment=2334209) in 0.53 seconds
+0144.323 (0) Table wp_postmeta: finishing file(s) (2, 188 KB)
+0145.342 (0) Table wp_posts: Total expected rows (via COUNT): 126
+0145.434 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0145.565 (0) Table wp_posts: Rows added in this batch (next record: 419): 126 (uncompressed bytes in this segment=588160) in 0.99 seconds
+0145.849 (0) Table wp_posts: finishing file(s) (2, 24.5 KB)
+0146.512 (0) Table wp_term_relationships: Total expected rows (approximate): 14
+0147.024 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 14 (uncompressed bytes in this segment=888) in 0.54 seconds
+0147.250 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0147.575 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+0147.624 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0147.727 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 12): 7 (uncompressed bytes in this segment=1141) in 0.26 seconds
+0148.044 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0148.424 (0) Table wp_termmeta: Total expected rows (via COUNT): 5
+0148.468 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0148.610 (0) Table wp_termmeta: Rows added in this batch (next record: 10): 5 (uncompressed bytes in this segment=944) in 0.36 seconds
+0149.195 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0149.344 (0) Table wp_terms: Total expected rows (via COUNT): 7
+0149.412 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0149.487 (0) Table wp_terms: Rows added in this batch (next record: 12): 7 (uncompressed bytes in this segment=918) in 0.17 seconds
+0149.632 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0149.746 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0149.833 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=542) in 0.09 seconds
+0149.974 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0150.069 (0) Table wp_horizontal_scrolling_hsas: Total expected rows (via COUNT): 1
+0150.115 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0150.174 (0) Table wp_horizontal_scrolling_hsas: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1461) in 0.11 seconds
+0150.319 (0) Table wp_horizontal_scrolling_hsas: finishing file(s) (2, 0.6 KB)
+0150.770 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 3
+0150.810 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0150.858 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=899) in 0.27 seconds
+0151.111 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0151.194 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz (line 1836, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0151.245 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_options.table.tmpr972.gz (1/19/fopen): adding to final database dump
+0151.302 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_options.table.gz (2/19/fopen): adding to final database dump
+0151.378 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_users.table.tmpr2.gz (3/19/fopen): adding to final database dump
+0151.491 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_users.table.gz (4/19/fopen): adding to final database dump
+0151.591 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_usermeta.table.tmpr23.gz (5/19/fopen): adding to final database dump
+0151.682 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_usermeta.table.gz (6/19/fopen): adding to final database dump
+0151.741 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_actionscheduler_actions.table.tmpr19.gz (7/19/fopen): adding to final database dump
+0151.822 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_actionscheduler_actions.table.gz (8/19/fopen): adding to final database dump
+0151.916 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/19/fopen): adding to final database dump
+0152.016 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_actionscheduler_claims.table.gz (10/19/fopen): adding to final database dump
+0152.074 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/19/fopen): adding to final database dump
+0152.111 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_actionscheduler_groups.table.gz (12/19/fopen): adding to final database dump
+0152.166 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_actionscheduler_logs.table.tmpr16.gz (13/19/fopen): adding to final database dump
+0152.194 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_actionscheduler_logs.table.gz (14/19/fopen): adding to final database dump
+0152.252 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_commentmeta.table.tmpr0.gz (15/19/fopen): adding to final database dump
+0152.283 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_commentmeta.table.gz (16/19/fopen): adding to final database dump
+0152.455 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_comments.table.tmpr2.gz (17/19/fopen): adding to final database dump
+0152.761 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_comments.table.gz (18/19/fopen): adding to final database dump
+0153.075 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_links.table.tmpr0.gz (19/19/fopen): adding to final database dump
+0153.312 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_links.table.gz (20/19/fopen): adding to final database dump
+0153.511 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_postmeta.table.tmpr1668.gz (21/19/fopen): adding to final database dump
+0153.795 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_postmeta.table.gz (22/19/fopen): adding to final database dump
+0153.885 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_posts.table.tmpr420.gz (23/19/fopen): adding to final database dump
+0153.936 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_posts.table.gz (24/19/fopen): adding to final database dump
+0154.089 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_term_relationships.table.tmpr100001.gz (25/19/fopen): adding to final database dump
+0154.174 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_term_relationships.table.gz (26/19/fopen): adding to final database dump
+0154.244 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_term_taxonomy.table.tmpr13.gz (27/19/fopen): adding to final database dump
+0154.302 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_term_taxonomy.table.gz (28/19/fopen): adding to final database dump
+0154.364 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_termmeta.table.tmpr11.gz (29/19/fopen): adding to final database dump
+0154.402 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_termmeta.table.gz (30/19/fopen): adding to final database dump
+0154.460 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_terms.table.tmpr13.gz (31/19/fopen): adding to final database dump
+0154.502 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_terms.table.gz (32/19/fopen): adding to final database dump
+0154.611 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_e_events.table.tmpr0.gz (33/19/fopen): adding to final database dump
+0154.649 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_e_events.table.gz (34/19/fopen): adding to final database dump
+0154.718 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_horizontal_scrolling_hsas.table.tmpr2.gz (35/19/fopen): adding to final database dump
+0154.824 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_horizontal_scrolling_hsas.table.gz (36/19/fopen): adding to final database dump
+0154.961 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_wpforms_tasks_meta.table.tmpr4.gz (37/19/fopen): adding to final database dump
+0155.052 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db-table-wp_wpforms_tasks_meta.table.gz (38/19/fopen): adding to final database dump
+0155.295 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: finished writing out complete database file (569.2 KB)
+0155.699 (0) Total database tables backed up: 19 (backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz, size: 582923, sha1: 1d8651cc17569c5fcb2c417c0a11e2d904b56d19, sha256: 09e015bcbfb101dd59a3dd7537da5efe4ecd9e87eafa8c193cd03c6bedae0415)
+0155.865 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0155.923 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0155.952 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0155.982 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0156.010 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0156.040 (0) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0156.069 (0) Saving backup history. Total backup size: 41.2 MB
+0156.127 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0156.252 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0156.318 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+0156.366 (0) Google Drive: this account is not authorised
+0156.393 (0) An error condition has occurred for the first time during this job
+0156.452 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0156.483 (0) Number of backup sets in history: 1; groups (db): 1
+0156.510 (0) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+0156.540 (0) This backup set is the backup set just made, so will not be deleted.
+0156.540 (0) Number of backup sets in history: 1; groups (files): 1
+0156.569 (0) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+0156.569 (0) This backup set is the backup set just made, so will not be deleted.
+0156.606 (0) This backup set is the backup set just made, so will not be deleted.
+0156.606 (0) This backup set is the backup set just made, so will not be deleted.
+0156.606 (0) This backup set is the backup set just made, so will not be deleted.
+0156.606 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0156.635 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0156.694 (0) Resume backup (47c03d54306c, 0): finish run
+0156.815 (0) Decremented the semaphore (fd) by 1
+0157.298 (0) Semaphore (fd) unlocked
+0157.352 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0157.549 (0) Rescheduling resumption 1: moving to 60 seconds from now (1649494062)
+0157.649 (0) The backup has not finished; a resumption is scheduled
+0239.563 (1) Opened log file at time: Sat, 09 Apr 2022 08:48:04 +0000 on http://localhost/wordpress
+0239.602 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48M | 50M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0239.645 (1) Free space on disk containing Updraft's temporary directory: 456062.3 MB
+0239.675 (1) Requesting backup semaphore lock (47c03d54306c)
+0239.733 (1) [Debug] Lock option (updraft_lock_47c03d54306c, wp_options) was created in the database
+0239.762 (1) [Info] Lock (updraft_lock_47c03d54306c, wp_options) acquired after initialising the database
+0239.820 (1) Backup run: resumption=1, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (240s ago), job type=backup, previous check-in=150.92s
+0239.912 (1) Scheduling a resumption (2) after 300 seconds (1649494384) in case this run gets aborted
+0240.112 (1) Checking if we have a zip executable available
+0240.185 (1) Creation of backups of directories: already finished
+0240.267 (1) Saving backup status to database (elements: 8)
+0240.375 (1) Database dump (WordPress DB): Creation was completed already
+0240.417 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0240.579 (1) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0240.795 (1) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0240.833 (1) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0240.899 (1) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0240.995 (1) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0241.045 (1) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0241.087 (1) Saving backup history. Total backup size: 41.2 MB
+0241.178 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0241.278 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0241.337 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+0241.392 (1) Google Drive: this account is not authorised
+0241.457 (1) An error condition has occurred for the first time during this job
+0241.670 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0241.808 (1) Number of backup sets in history: 1; groups (db): 1
+0241.875 (1) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+0241.920 (1) This backup set is the backup set just made, so will not be deleted.
+0241.920 (1) Number of backup sets in history: 1; groups (files): 1
+0241.978 (1) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+0241.978 (1) This backup set is the backup set just made, so will not be deleted.
+0242.020 (1) This backup set is the backup set just made, so will not be deleted.
+0242.020 (1) This backup set is the backup set just made, so will not be deleted.
+0242.020 (1) This backup set is the backup set just made, so will not be deleted.
+0242.020 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0242.050 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0242.111 (1) Resume backup (47c03d54306c, 1): finish run
+0242.195 (1) [Info] Lock option (updraft_lock_47c03d54306c, wp_options) released
+0242.312 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0242.483 (1) The backup has not finished; a resumption is scheduled
+0618.022 (2) Opened log file at time: Sat, 09 Apr 2022 08:54:22 +0000 on http://localhost/wordpress
+0618.361 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48.1M | 56M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0618.433 (2) Free space on disk containing Updraft's temporary directory: 454849.1 MB
+0618.547 (2) Requesting backup semaphore lock (47c03d54306c)
+0618.674 (2) [Info] Lock (updraft_lock_47c03d54306c, wp_options) acquired
+0618.824 (2) Backup run: resumption=2, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (619s ago), job type=backup
+0618.904 (2) Scheduling a resumption (3) after 300 seconds (1649494763) in case this run gets aborted
+0619.206 (2) Checking if we have a zip executable available
+0619.442 (2) Creation of backups of directories: already finished
+0619.751 (2) Saving backup status to database (elements: 8)
+0619.888 (2) Database dump (WordPress DB): Creation was completed already
+0619.938 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0620.066 (2) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0620.347 (2) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0620.443 (2) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0620.513 (2) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0620.572 (2) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0620.624 (2) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0620.691 (2) Saving backup history. Total backup size: 41.2 MB
+0620.830 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0620.972 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0621.022 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+0621.066 (2) Google Drive: this account is not authorised
+0621.129 (2) An error condition has occurred for the first time during this job
+0621.233 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0621.272 (2) Number of backup sets in history: 1; groups (db): 1
+0621.338 (2) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+0621.517 (2) This backup set is the backup set just made, so will not be deleted.
+0621.517 (2) Number of backup sets in history: 1; groups (files): 1
+0621.647 (2) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+0621.647 (2) This backup set is the backup set just made, so will not be deleted.
+0621.853 (2) This backup set is the backup set just made, so will not be deleted.
+0621.853 (2) This backup set is the backup set just made, so will not be deleted.
+0621.853 (2) This backup set is the backup set just made, so will not be deleted.
+0621.853 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0621.964 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0622.202 (2) Resume backup (47c03d54306c, 2): finish run
+0622.263 (2) [Info] Lock option (updraft_lock_47c03d54306c, wp_options) released
+0622.530 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0622.772 (2) The backup has not finished; a resumption is scheduled
+0925.979 (3) Opened log file at time: Sat, 09 Apr 2022 08:59:30 +0000 on http://localhost/wordpress
+0926.036 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48.1M | 54M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0926.066 (3) Free space on disk containing Updraft's temporary directory: 453927.3 MB
+0926.109 (3) Requesting backup semaphore lock (47c03d54306c)
+0926.201 (3) [Info] Lock (updraft_lock_47c03d54306c, wp_options) acquired
+0926.251 (3) Backup run: resumption=3, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (926s ago), job type=backup
+0926.301 (3) Scheduling a resumption (4) after 300 seconds (1649495070) in case this run gets aborted
+0926.403 (3) Checking if we have a zip executable available
+0926.434 (3) Creation of backups of directories: already finished
+0926.467 (3) Saving backup status to database (elements: 8)
+0926.568 (3) Database dump (WordPress DB): Creation was completed already
+0926.633 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0926.726 (3) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0926.851 (3) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0926.925 (3) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0926.976 (3) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0927.000 (3) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0927.026 (3) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0927.109 (3) Saving backup history. Total backup size: 41.2 MB
+0927.215 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+0927.266 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0927.313 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+0927.342 (3) Google Drive: this account is not authorised
+0927.366 (3) An error condition has occurred for the first time during this job
+0927.426 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0927.450 (3) Number of backup sets in history: 1; groups (db): 1
+0927.476 (3) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+0927.554 (3) This backup set is the backup set just made, so will not be deleted.
+0927.554 (3) Number of backup sets in history: 1; groups (files): 1
+0927.574 (3) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+0927.574 (3) This backup set is the backup set just made, so will not be deleted.
+0927.605 (3) This backup set is the backup set just made, so will not be deleted.
+0927.605 (3) This backup set is the backup set just made, so will not be deleted.
+0927.605 (3) This backup set is the backup set just made, so will not be deleted.
+0927.605 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0927.624 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0927.701 (3) Resume backup (47c03d54306c, 3): finish run
+0927.724 (3) [Info] Lock option (updraft_lock_47c03d54306c, wp_options) released
+0927.774 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0927.833 (3) The backup has not finished; a resumption is scheduled
+1241.421 (4) Opened log file at time: Sat, 09 Apr 2022 09:04:45 +0000 on http://localhost/wordpress
+1241.464 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48M | 66M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+1241.488 (4) Free space on disk containing Updraft's temporary directory: 452995 MB
+1241.514 (4) Requesting backup semaphore lock (47c03d54306c)
+1241.580 (4) [Info] Lock (updraft_lock_47c03d54306c, wp_options) acquired
+1241.638 (4) Backup run: resumption=4, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (1242s ago), job type=backup
+1241.688 (4) Scheduling a resumption (5) after 300 seconds (1649495386) in case this run gets aborted
+1241.744 (4) Checking if we have a zip executable available
+1241.771 (4) Creation of backups of directories: already finished
+1241.797 (4) Saving backup status to database (elements: 8)
+1241.846 (4) Database dump (WordPress DB): Creation was completed already
+1241.872 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1241.988 (4) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+1242.155 (4) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1242.318 (4) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1242.438 (4) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1242.488 (4) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+1242.555 (4) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+1242.642 (4) Saving backup history. Total backup size: 41.2 MB
+1242.780 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1242.838 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1242.894 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+1242.963 (4) Google Drive: this account is not authorised
+1243.046 (4) An error condition has occurred for the first time during this job
+1243.230 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+1243.447 (4) Number of backup sets in history: 1; groups (db): 1
+1243.547 (4) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+1243.721 (4) This backup set is the backup set just made, so will not be deleted.
+1243.722 (4) Number of backup sets in history: 1; groups (files): 1
+1243.805 (4) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+1243.805 (4) This backup set is the backup set just made, so will not be deleted.
+1243.939 (4) This backup set is the backup set just made, so will not be deleted.
+1243.939 (4) This backup set is the backup set just made, so will not be deleted.
+1243.939 (4) This backup set is the backup set just made, so will not be deleted.
+1243.939 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1243.996 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1244.096 (4) Resume backup (47c03d54306c, 4): finish run
+1244.247 (4) [Info] Lock option (updraft_lock_47c03d54306c, wp_options) released
+1244.750 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1245.068 (4) The backup has not finished; a resumption is scheduled
+1551.877 (5) Opened log file at time: Sat, 09 Apr 2022 09:09:56 +0000 on http://localhost/wordpress
+1551.918 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48M | 50M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+1551.976 (5) Free space on disk containing Updraft's temporary directory: 453021.7 MB
+1552.009 (5) Requesting backup semaphore lock (47c03d54306c)
+1552.076 (5) [Info] Lock (updraft_lock_47c03d54306c, wp_options) acquired
+1552.134 (5) Backup run: resumption=5, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (1552s ago), job type=backup
+1552.200 (5) Scheduling a resumption (6) after 300 seconds (1649495696) in case this run gets aborted
+1552.267 (5) Checking if we have a zip executable available
+1552.293 (5) Creation of backups of directories: already finished
+1552.335 (5) Saving backup status to database (elements: 8)
+1552.590 (5) Database dump (WordPress DB): Creation was completed already
+1552.693 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1552.885 (5) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+1552.951 (5) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1552.993 (5) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1553.026 (5) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1553.060 (5) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+1553.093 (5) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+1553.134 (5) Saving backup history. Total backup size: 41.2 MB
+1553.210 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1553.268 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1553.302 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+1553.334 (5) Google Drive: this account is not authorised
+1553.360 (5) An error condition has occurred for the first time during this job
+1553.418 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+1553.477 (5) Number of backup sets in history: 1; groups (db): 1
+1553.509 (5) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+1553.535 (5) This backup set is the backup set just made, so will not be deleted.
+1553.535 (5) Number of backup sets in history: 1; groups (files): 1
+1553.567 (5) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+1553.567 (5) This backup set is the backup set just made, so will not be deleted.
+1553.593 (5) This backup set is the backup set just made, so will not be deleted.
+1553.593 (5) This backup set is the backup set just made, so will not be deleted.
+1553.593 (5) This backup set is the backup set just made, so will not be deleted.
+1553.593 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1553.625 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1553.684 (5) Resume backup (47c03d54306c, 5): finish run
+1553.718 (5) [Info] Lock option (updraft_lock_47c03d54306c, wp_options) released
+1553.850 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1553.909 (5) The backup has not finished; a resumption is scheduled
+1852.317 (6) Opened log file at time: Sat, 09 Apr 2022 09:14:56 +0000 on http://localhost/wordpress
+1852.356 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48.1M | 50M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+1852.405 (6) Free space on disk containing Updraft's temporary directory: 453020.9 MB
+1852.432 (6) Requesting backup semaphore lock (47c03d54306c)
+1852.539 (6) [Info] Lock (updraft_lock_47c03d54306c, wp_options) acquired
+1852.635 (6) Backup run: resumption=6, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (1853s ago), job type=backup
+1852.755 (6) Scheduling a resumption (7) after 300 seconds (1649495997) in case this run gets aborted
+1852.821 (6) Checking if we have a zip executable available
+1852.849 (6) Creation of backups of directories: already finished
+1852.891 (6) Saving backup status to database (elements: 8)
+1852.948 (6) Database dump (WordPress DB): Creation was completed already
+1852.981 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1853.055 (6) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+1853.130 (6) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1853.157 (6) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1853.190 (6) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1853.222 (6) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+1853.249 (6) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+1853.280 (6) Saving backup history. Total backup size: 41.2 MB
+1853.338 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+1853.397 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1853.482 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+1853.555 (6) Google Drive: this account is not authorised
+1853.582 (6) An error condition has occurred for the first time during this job
+1853.674 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+1853.724 (6) Number of backup sets in history: 1; groups (db): 1
+1853.773 (6) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+1853.817 (6) This backup set is the backup set just made, so will not be deleted.
+1853.817 (6) Number of backup sets in history: 1; groups (files): 1
+1853.847 (6) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+1853.847 (6) This backup set is the backup set just made, so will not be deleted.
+1853.882 (6) This backup set is the backup set just made, so will not be deleted.
+1853.882 (6) This backup set is the backup set just made, so will not be deleted.
+1853.882 (6) This backup set is the backup set just made, so will not be deleted.
+1853.882 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1853.913 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1853.972 (6) Resume backup (47c03d54306c, 6): finish run
+1853.999 (6) [Info] Lock option (updraft_lock_47c03d54306c, wp_options) released
+1854.057 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1854.115 (6) The backup has not finished; a resumption is scheduled
+2167.035 (7) Opened log file at time: Sat, 09 Apr 2022 09:20:11 +0000 on http://localhost/wordpress
+2167.065 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48M | 52M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+2167.093 (7) Free space on disk containing Updraft's temporary directory: 453018.9 MB
+2167.123 (7) Requesting backup semaphore lock (47c03d54306c)
+2167.222 (7) [Info] Lock (updraft_lock_47c03d54306c, wp_options) acquired
+2167.431 (7) Backup run: resumption=7, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (2167s ago), job type=backup
+2167.481 (7) Scheduling a resumption (8) after 300 seconds (1649496311) in case this run gets aborted
+2167.567 (7) Checking if we have a zip executable available
+2167.616 (7) Creation of backups of directories: already finished
+2167.652 (7) Saving backup status to database (elements: 8)
+2167.738 (7) Database dump (WordPress DB): Creation was completed already
+2167.768 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+2167.826 (7) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+2167.896 (7) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2167.926 (7) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2167.954 (7) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2167.984 (7) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+2168.013 (7) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+2168.043 (7) Saving backup history. Total backup size: 41.2 MB
+2168.101 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+2168.159 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2168.188 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+2168.218 (7) Google Drive: this account is not authorised
+2168.284 (7) An error condition has occurred for the first time during this job
+2168.384 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+2168.506 (7) Number of backup sets in history: 1; groups (db): 1
+2168.593 (7) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+2168.621 (7) This backup set is the backup set just made, so will not be deleted.
+2168.621 (7) Number of backup sets in history: 1; groups (files): 1
+2168.651 (7) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+2168.651 (7) This backup set is the backup set just made, so will not be deleted.
+2168.679 (7) This backup set is the backup set just made, so will not be deleted.
+2168.680 (7) This backup set is the backup set just made, so will not be deleted.
+2168.680 (7) This backup set is the backup set just made, so will not be deleted.
+2168.680 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2168.718 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2168.776 (7) Resume backup (47c03d54306c, 7): finish run
+2168.804 (7) [Info] Lock option (updraft_lock_47c03d54306c, wp_options) released
+2168.863 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2168.921 (7) The backup has not finished; a resumption is scheduled
+2475.900 (8) Opened log file at time: Sat, 09 Apr 2022 09:25:20 +0000 on http://localhost/wordpress
+2475.926 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48M | 50M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+2475.947 (8) Free space on disk containing Updraft's temporary directory: 453017.6 MB
+2475.993 (8) Requesting backup semaphore lock (47c03d54306c)
+2476.088 (8) [Info] Lock (updraft_lock_47c03d54306c, wp_options) acquired
+2476.218 (8) Backup run: resumption=8, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (2476s ago), job type=backup
+2476.316 (8) Scheduling a resumption (9) after 300 seconds (1649496620) in case this run gets aborted
+2476.436 (8) Checking if we have a zip executable available
+2476.506 (8) Creation of backups of directories: already finished
+2476.573 (8) Saving backup status to database (elements: 8)
+2476.685 (8) Database dump (WordPress DB): Creation was completed already
+2476.754 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+2476.910 (8) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+2476.993 (8) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2477.058 (8) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2477.159 (8) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2477.202 (8) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+2477.282 (8) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+2477.335 (8) Saving backup history. Total backup size: 41.2 MB
+2477.441 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+2477.653 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2477.814 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+2478.005 (8) Google Drive: this account is not authorised
+2478.072 (8) An error condition has occurred for the first time during this job
+2478.180 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+2478.244 (8) Number of backup sets in history: 1; groups (db): 1
+2478.326 (8) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+2478.364 (8) This backup set is the backup set just made, so will not be deleted.
+2478.364 (8) Number of backup sets in history: 1; groups (files): 1
+2478.407 (8) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+2478.407 (8) This backup set is the backup set just made, so will not be deleted.
+2478.438 (8) This backup set is the backup set just made, so will not be deleted.
+2478.439 (8) This backup set is the backup set just made, so will not be deleted.
+2478.439 (8) This backup set is the backup set just made, so will not be deleted.
+2478.439 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2478.521 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2478.596 (8) Resume backup (47c03d54306c, 8): finish run
+2478.642 (8) [Info] Lock option (updraft_lock_47c03d54306c, wp_options) released
+2478.830 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2478.964 (8) The backup has not finished; a resumption is scheduled
+2776.337 (9) Opened log file at time: Sat, 09 Apr 2022 09:30:20 +0000 on http://localhost/wordpress
+2776.435 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.4 (apache2handler, Windows NT NRADAN-12345 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48M | 50M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+2776.485 (9) Free space on disk containing Updraft's temporary directory: 453022.2 MB
+2776.527 (9) Requesting backup semaphore lock (47c03d54306c)
+2776.618 (9) [Info] Lock (updraft_lock_47c03d54306c, wp_options) acquired
+2776.710 (9) Backup run: resumption=9, nonce=47c03d54306c, file_nonce=47c03d54306c begun at=1649493844 (2777s ago), job type=backup
+2776.768 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+2776.827 (9) Scheduling a resumption (10) after 300 seconds (1649496921); but the job will then be aborted unless something happens this time
+2776.926 (9) Creation of backups of directories: already finished
+2776.977 (9) Saving backup status to database (elements: 8)
+2777.027 (9) Database dump (WordPress DB): Creation was completed already
+2777.058 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+2777.116 (9) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2752, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+2777.197 (9) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2777.227 (9) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2777.257 (9) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2777.285 (9) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-others.zip: others: This file has not yet been successfully uploaded: will queue
+2777.316 (9) backup_2022-04-09-0844_Achievers_Academy_47c03d54306c-db.gz: db: This file has not yet been successfully uploaded: will queue
+2777.343 (9) Saving backup history. Total backup size: 41.2 MB
+2777.402 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+2777.529 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2777.582 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f5c992378441ecec8fc8545c3c92731e)
+2777.682 (9) Google Drive: this account is not authorised
+2777.726 (9) An error condition has occurred for the first time during this job
+2777.785 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+2777.829 (9) Number of backup sets in history: 1; groups (db): 1
+2777.860 (9) Examining (for databases) backup set with group_id=0, nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+2777.891 (9) This backup set is the backup set just made, so will not be deleted.
+2777.891 (9) Number of backup sets in history: 1; groups (files): 1
+2777.918 (9) Examining (for files) backup set with nonce=47c03d54306c, datestamp=1649493844 (Apr 09 2022 08:44:04)
+2777.918 (9) This backup set is the backup set just made, so will not be deleted.
+2777.949 (9) This backup set is the backup set just made, so will not be deleted.
+2777.949 (9) This backup set is the backup set just made, so will not be deleted.
+2777.950 (9) This backup set is the backup set just made, so will not be deleted.
+2777.950 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2777.976 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2778.082 (9) Resume backup (47c03d54306c, 9): finish run
+2778.132 (9) [Info] Lock option (updraft_lock_47c03d54306c, wp_options) released
+2778.218 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+2778.277 (9) Fetching RSS news feed
+2780.637 (9) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 63, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+2780.676 (9) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 73, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+2780.734 (9) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 89, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+2780.782 (9) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 102, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+2780.826 (9) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 111, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+2781.863 (9) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+2781.915 (9) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+2781.956 (9) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 68, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+2782.001 (9) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 82, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+2782.042 (9) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 91, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+2782.601 (9) Fetched RSS news feed; result is a: SimplePie
+2782.985 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 69.5 KB) to: niran...
+2783.485 (9) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Invalid address:  (From): wordpress@localhost
+2783.730 (9) The backup attempt has finished, apparently unsuccessfully
