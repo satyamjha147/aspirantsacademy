@@ -87,7 +87,7 @@ var _wpUtilSettings = {"ajax":{"url":"\/niranjan\/wp-admin\/admin-ajax.php"}};
 </script>
 <script src="http://aspirantsacademy.co.in/wp-includes/js/wp-util.min.js?ver=5.9.3" id="wp-util-js"></script>
 <script id="user-profile-js-extra">
-var userProfileL10n = {"user_id":"0","nonce":"74b892778b"};
+var userProfileL10n = {"user_id":"0","nonce":"8e32b1684c"};
 </script>
 <script id="user-profile-js-translations">
 ( function( domain, translations ) {
