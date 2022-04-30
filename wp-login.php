@@ -83,11 +83,11 @@ var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"
 <script src="http://aspirantsacademy.co.in/wp-admin/js/password-strength-meter.min.js?ver=5.9.3" id="password-strength-meter-js"></script>
 <script src="http://aspirantsacademy.co.in/wp-includes/js/underscore.min.js?ver=1.13.1" id="underscore-js"></script>
 <script id="wp-util-js-extra">
-var _wpUtilSettings = {"ajax":{"url":"\/niranjan\/wp-admin\/admin-ajax.php"}};
+var _wpUtilSettings = {"ajax":{"url":"\/niranja\/wp-admin\/admin-ajax.php"}};
 </script>
 <script src="http://aspirantsacademy.co.in/wp-includes/js/wp-util.min.js?ver=5.9.3" id="wp-util-js"></script>
 <script id="user-profile-js-extra">
-var userProfileL10n = {"user_id":"0","nonce":"be0f6468d9"};
+var userProfileL10n = {"user_id":"0","nonce":"e624542c4e"};
 </script>
 <script id="user-profile-js-translations">
 ( function( domain, translations ) {
