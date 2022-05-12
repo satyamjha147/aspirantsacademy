@@ -104,14 +104,16 @@
 }
 
 .no-touch .entry-portfolio--hovercard.enable-hover:hover .hovercard__popup, .no-touch .entry-portfolio--hovercard.enable-hover .hovercard__popup:hover {
-    display: block;
+       display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     opacity: 1;
 }
 
 .no-touch .entry-portfolio--hovercard .hovercard__popup {
     z-index: 999999;
-    width: 100%;
-    height: 100%;
+/*     width: 100%;
+    height: 100%; */
     padding: 1.875rem;
     background-color: rgba(13, 13, 13, 0.75);
     -webkit-transition: opacity .35s ease;
@@ -121,6 +123,8 @@
     position: absolute;
     left: 0;
     bottom: 0;
+	top:0px;
+	right:0
 }
 
 
@@ -168,8 +172,8 @@
 }
 
 .no-touch .entry-portfolio--hovercard.enable-hover .hovercard__inner {
-    width: 100%;
-    height: 100%;
+/*     width: 100%;
+    height: 100%; */
     padding: 1.875rem;
     display: -webkit-box;
     display: -ms-flexbox;
